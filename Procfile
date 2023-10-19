@@ -1,1 +1,1 @@
-web: python main.py
+web: uvicorn your_app:app --host 0.0.0.0 --port $PORT
